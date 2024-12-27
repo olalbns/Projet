@@ -1,0 +1,66 @@
+.phone{
+    padding: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Pour organiser les éléments à l'intérieur en colonne */
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.phone:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+    0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.phone p a{
+    color: black;
+    /*margin-left: 5px;
+    margin-right: 10px;*/
+}
+.bv a{
+    color: black;
+}
+
+.Produi-conteiner{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 200vh;
+}
+.Produi-conteiner2{
+    display: flex;
+    justify-content: space-around;
+    background-color:aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.MarqProd{
+    text-align: center;
+    text-decoration: overline 3px solid;
+    color: rgb(255, 140, 0);
+}
+.showMore{
+    text-align: center;
+}
+.marqueNam{
+    color: rgb(188, 100, 5);
+}
+.blockDisp{
+    display: block;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+.prod-catehjji{
+    display: block;
+}
+.fl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nameProCate{
+    background-color: rgb(239, 237, 237);
+    padding: 10px;
+    text-align: justify;
+}

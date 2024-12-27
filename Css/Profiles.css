@@ -1,0 +1,105 @@
+body{
+    font-family: verdana, sans-serif;
+}
+.Ppba{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 
+    0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.underli{
+    background-color: blue;
+    padding: 2px;
+    width: 100px;
+    position: absolute;
+    bottom: 562px;
+    left: 202px;
+    /*top: 20px;*/
+}
+.underli1{
+    background-color: blue;
+    padding: 2px;
+    width: 150px;
+    position: absolute;
+    bottom: 562px;
+    left: 658px;
+    /*top: 20px;*/
+}
+.infoma{
+    display: flex;
+    justify-content: space-around;
+}
+.tr{
+    display: flex;
+}
+.in{
+    margin-right: 30px;
+    margin-left: 20%;
+}
+.fk{
+    padding: 7px;
+    width: 350px;
+
+}
+input{
+    padding: 4px;
+    width: 100px;
+}
+.com:hover{
+    cursor: pointer;
+}
+.os{
+    display: flex;
+    justify-content: space-around;
+}
+.disconnet button{
+    padding: 10px;
+    width: 150px;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.Detail{
+    cursor: pointer;
+}
+#modale{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+    justify-content: center;
+    align-items: center;
+}
+#modale div{
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+.cent{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+input{
+font-size: 20px;
+}
+.sbm{
+padding: 8px;
+width: 200px;
+border-radius: 10px;
+}
+.info{
+    background-color: rgba(0, 128, 0, 0.192);
+    padding: 10px;
+    text-align: center;
+    color: black;
+}

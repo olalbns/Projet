@@ -1,0 +1,356 @@
+header{
+    height: 80px;
+    position:sticky;
+    top:0;
+    background-color: white;
+    margin-left: -8px;
+    margin-right: -7px;
+    z-index: 100;
+    font-family: Verdana, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menName{
+    margin-left: 10px;
+}
+#userNamE{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#userNamE a{
+    color: black;
+    text-decoration: none;
+}
+
+.user a{
+    color: black;
+    text-decoration: none;
+}
+.dropdown{
+    font-size: 18px;
+    
+}
+.jf{
+text-decoration: none;
+}
+.dropdown-menu{
+    display: none;
+    padding: 12px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 6px;
+}
+.dropdown-item:hover{
+background-color: rgba(0, 0, 0, 0.523);
+}
+.dropdown-item{
+    margin: -5px 0px 0px ;
+    padding: 9px;
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+.btnnnn{
+    background-color: #c4c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.icn{
+    border-radius:5px;
+    padding: 8px;
+    margin-top: 1.5px;
+   
+}
+.icn:hover {
+    border: 1px solid black;
+    background-color: rgb(174, 175, 176);
+}
+
+.icnDiv{
+    margin-top:1.5px;
+}
+.nnnk{
+    color: blue;
+}
+
+
+#cp{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#cl{
+    position: relative;
+    font-size: 21px;
+    /*left: 50px;*/
+}
+#iptsearch{
+    padding: 10.5px;
+    width: 260px;
+    border-radius: 5px;
+}
+.searchDiv :first-child{
+    margin-top:1.5px ;
+}
+.searchDiv{
+    display: flex;
+    flex-direction: row;
+}
+.ori{
+    display: flex;
+    justify-content: space-between;
+}
+.menName a{
+ font-size: 32px;
+ font-weight: bolder;
+ text-decoration: none;
+ color: black;
+ /*margin-left: 10px;*/
+}
+.menLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    margin-left:10px ;
+}
+.menLinks{
+    margin-top: 10px;
+  
+}
+
+.icnDiv a{
+    font-size: 25px;
+}
+
+
+.btnnnn {
+    background-color: #c4c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.icnDiv a {
+    font-size: 25px;
+}
+
+.phone img {
+    height: 200px;
+    width: 200px;
+}
+
+.phone button {
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+}
+
+.prod {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prod a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.plus {
+    text-decoration: none;
+    color: black;
+}
+
+.hr {
+    margin-top: 70px;
+}
+
+.GoodPri {
+    background-image: url(../Assets/img/Infinix-Note-30-VIP-Racing-Edition-Unveiled.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -9px;
+    margin-right: -8px;
+
+}
+
+.GoodPri h1 {
+    font-size: 28px;
+    text-decoration: overline red 5px;
+    /*margin-top: 20px;*/
+
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.h1 {
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+.GoodPri .p1 {
+    font-size: 26px;
+}
+
+.Th1 {
+    font-size: 28px;
+}
+
+.AboutUs {
+    background-image: url(../Assets/img/c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.h2 {
+    margin-top: 90px;
+    font-size: 28px;
+}
+
+.AboutUs h1 {
+    text-decoration: overline white 5px;
+}
+
+.ContactUs {
+    background-image: url(../Assets/img/s23-ultra-render-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 10px;
+    height: 600px;
+}
+
+.th2 {
+    font-size: 28px;
+    color: white;
+    text-decoration: overline black 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.formol {
+    margin: auto;
+    width: 40%;
+}
+
+.formol {
+    border: 1px solid white;
+    width: 700px;
+    padding: 40px;
+    border-radius: 5px;
+    /* background-color: rgb(27, 143, 193);*/
+}
+
+.formol label {
+    color: white;
+}
+
+.formol input {
+    padding: 13px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.IptS {
+    position: relative;
+    top: 30px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.mess {
+    margin-right: 10px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.flexF {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot {
+    background-color: #D3D3D3;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    height: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bfbfbf;
+    padding: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -7px;
+}
+
+.hfh {
+    background-color: #357079;
+
+}
+
+.emipt::placeholder {
+    font-size: 16px;
+}
+
+.emipt {
+    padding: 16px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.inscF {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-bottom: -20px;
+    margin-left: -9px;
+    margin-right: -7px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.ofdjnf {
+    margin-right: 30px;
+    font-size: 28px;
+    margin-left: 300px;
+}
+
+.njn {
+    padding: 16px;
+    border-radius: 10px;
+    width: 120px;
+}

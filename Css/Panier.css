@@ -1,0 +1,67 @@
+body{
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+
+  }
+ .nnnk{
+    padding-left: 0px;
+ }
+  .left{
+    display: flex;
+  }
+ .nop{
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+  .princi{
+      margin: 0px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  .aff{
+      display: flex;
+      justify-content: space-between ;
+  }
+  .aff img{
+      width: 100px;
+      height:100px;
+  }
+  span{
+      padding-left: 50px;
+  }
+  .prixU{
+      padding-right: 100px;
+  }
+  .right button{
+      border-radius: 100%;
+      border: white;
+      padding: 5px;
+  }
+  .right{
+      padding-top: 10px;
+  }
+  h2{
+      padding-top: 30px;
+  }
+  .recapT{
+      display: flex;
+      justify-content: space-between;
+  }
+  .PrixT{
+      display: flex;
+      justify-content: space-between;
+  }
+  .btnComm{
+      background-color: green;
+      width: 100%;
+      padding:10px ;
+      color: white;
+      border: white;
+  }
+  .lk{
+    border: 1px solid black;
+  }
+
+.Incre-Number{
+    padding: 10px;
+}

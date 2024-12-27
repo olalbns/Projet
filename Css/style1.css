@@ -1,0 +1,186 @@
+body {
+    font-family: Verdana, sans-serif;
+
+}
+
+.mainSEc {
+    background-color: rgb(239, 237, 237);
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.mainSEc h1 {
+    margin-left: 10px;
+}
+
+.mainSEc .flex {
+    margin-left: 10px;
+}
+
+.bc {
+    margin-right: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 9px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mrq {
+    margin-left: 10px;
+}
+
+.nkt {
+    display: flex;
+}
+
+#vv :hover {}
+
+.phone {
+    padding: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* Pour organiser les éléments à l'intérieur en colonne */
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.flexx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.phone h1 {
+    text-align: center;
+}
+
+.phone .phone h2 {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.phone p {
+    text-align: center;
+    margin-top: -5px;
+
+}
+
+.jjh {
+    margin-left: 40px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    cursor: default;
+}
+
+.phone:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2),
+        0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.phone p a {
+    color: black;
+    /*margin-left: 5px;
+    margin-right: 10px;*/
+}
+
+.bv a {
+    color: black;
+    text-align: center;
+}
+
+.phone button {
+    border-radius: 5px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+}
+
+.fsproduit {
+    margin-top: 30px;
+}
+
+.vnvnv {
+    display: flex;
+}
+
+.btnF {
+    margin-top: 10px;
+}
+
+.btnF button {
+    padding: 10px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.btnF a {
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.detailpr {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.detailpr .Categorie-conteiner-modal {
+    margin-left: 300px;
+
+}
+
+.detailpr .Categorie-conteiner-modal div {
+    margin-bottom: 80px;
+
+}
+
+.color-rd {
+    color: blue;
+}
+
+.detailpr div {
+    margin-left: 20px;
+}
+
+.detailpr h1 {
+    text-decoration: underline 2px black;
+    color: blue;
+    font-size: 1.7em;
+}
+
+.detailpr ul li {
+    padding: 10px;
+}
+
+.fstdet h2 {
+    margin-top: 10px;
+}
+.Add-in-cart-btn{
+    text-align: center;
+    position: relative;
+    left: 30vh;
+}
+.jjh{
+    background-color: rgba(0, 0, 255, 0.841);
+    border-radius: 5px;
+    color: black;
+}
+.img{
+    padding-left: 20px;
+    padding-right: 20px ;
+}

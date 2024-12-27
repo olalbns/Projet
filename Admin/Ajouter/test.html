@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Ajouter une image locale</h1>
+    <button id="upload-btn">Ajouter une image</button>
+    <button role="none"></button>
+    <input type="file" id="file-input" accept="image/*" style="display: none;">
+    <img id="preview" alt="Aperçu de l'image">
+    
+    <script>
+      // Références des éléments HTML
+      const uploadBtn = document.getElementById('upload-btn');
+      const fileInput = document.getElementById('file-input');
+      const preview = document.getElementById('preview');
+  
+      // Clique sur le bouton -> Ouvrir l'input type file
+      uploadBtn.addEventListener('click', () => {
+        fileInput.click();
+      });
+  
+      // Afficher l'image sélectionnée
+      fileInput.addEventListener('change', (event) => {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+          };
+          reader.readAsDataURL(file);
+        }
+      });
+    </script>
+
+
+
+    <!--<h1>Ajouter une image via un bouton</h1>
+    <button id="addImageButton">Ajouter une image</button>
+    <div id="image-container"></div>
+
+    <script>
+        document.getElementById("addImageButton").addEventListener("click", function() {
+            // Crée un élément <img>
+            const img = document.createElement("img");
+            // Définit la source de l'image
+            img.src = "https://via.placeholder.com/300"; // Remplacez par l'URL de votre image
+            img.alt = "Image ajoutée via le bouton";
+            
+            // Ajoute l'image dans le conteneur
+            const container = document.getElementById("image-container");
+            container.appendChild(img);
+        });
+    </script>-->
+
+</body>
+</html>

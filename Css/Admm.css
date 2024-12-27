@@ -1,0 +1,30 @@
+.ConAd{
+   /* width: 100%;*/
+    padding: 50px;
+}
+input{
+    padding: 10px;
+    width: 300px;
+}
+form{
+    width: 24%;
+    padding: 50px;
+    height: auto;
+    margin: auto;
+}
+.iptSu{
+    margin-left: 35px;
+    padding: 10px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.kk{
+    border: 1px solid black;
+}

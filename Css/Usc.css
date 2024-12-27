@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+.pl{
+    width: 300px;
+    margin: auto;
+}
+form input{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.bdx{
+    margin-top: 50px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+    0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.bdx h1,p{
+    text-align: center;
+}
+.bdx a{
+    text-align: center;
+}
+.modIn{
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.545);
+    width: 348px;
+}

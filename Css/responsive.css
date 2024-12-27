@@ -1,0 +1,115 @@
+@media (max-width: 781px) {
+   body{
+    font-size: 11px;
+    width:auto;
+   }
+  button{
+    padding: 2px;
+    font-size: 11px;
+  }
+  header{
+    height: 200px;
+    position: relative;
+  }
+  .phone img{
+    width: 100px;
+    height: 100px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  .jjh {
+    background-color: rgba(0, 0, 255, 0.841);
+    border-radius: 5px;
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+  .nkt{
+    display: block;
+  }
+  .oo{
+    margin-top: 10px;
+  }
+  .mrq {
+    margin-left: 0;
+}
+  .vnvnv {
+    display: flex;
+    justify-content: space-between;
+}
+  .btnF button {
+    padding: 2px;
+    width: 100px;
+    margin-left: 10px;
+    break-inside: avoid;
+}
+  .menLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    margin-left: 0;
+    margin-top: 5px;
+    display: block;
+}
+  .menLinks {
+    margin-top: 0;
+}
+  .menName a {
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    /* margin-left: 10px; */
+}
+  .menName {
+    margin-left: 0;
+}
+  .menu {
+    display: block
+;
+    
+}
+  #iptsearch {
+    padding: 2px;
+    width: auto;
+    border-radius: 5px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: 11px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  .icn{
+    padding: 2px;
+  }
+  .btnnnn {
+    background-color: #c4c3c3;
+    padding: 2px;
+    font-size: 11px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+  a{
+    padding: 2px;
+  }
+   .flex{
+    display: inline-block;
+    margin-left: 0;
+   }
+   select{
+    padding: 1px;
+   }
+   h1{
+    font-size: 16px;
+   }
+}

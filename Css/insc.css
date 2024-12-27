@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+.tt{
+    width: 850px;
+  margin: auto;
+  display: flex;
+}
+.in{
+    margin-right: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+.tr{
+    display: flex;
+    margin-top: 20px;
+}
+.sbm{
+    margin-right: 50px;
+}
+
+.fm{
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+    0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+form input{
+    padding: 10px;
+    width: 420px;
+    margin-bottom: 20px;
+}
+.fk{
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.Dc{
+    text-align: center;
+}
